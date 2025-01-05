@@ -41,5 +41,5 @@ CI環境や包括的テスト、ユーザ向けチュートリアルの整備が
 本プロジェクトは GNU General Public License v3.0 (GPL-3.0) の下で配布されています。
 MeCab / ipadic など追加ライセンスにも留意してください。
 リンク
-https://github.com/akazdayo/AutoYukkuri
+プロジェクトのGitHubリポジトリ
 参考： AutoYukkuri (by あかず様)

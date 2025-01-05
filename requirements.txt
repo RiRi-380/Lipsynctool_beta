@@ -1,0 +1,19 @@
+mecab-python3
+matplotlib
+scikit-learn
+scipy
+numpy
+openai-whisper
+librosa
+moviepy==1.0.3
+flet
+numba
+Cython
+protobuf
+grpcio
+grpcio-tools
+cupy-cuda11x
+celery>=5.3.0
+
+# EXEビルド用に追加:
+pyinstaller>=5.10.1

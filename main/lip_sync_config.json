@@ -1,0 +1,74 @@
+{
+    "version": "1.2",
+    
+    "timeline": {
+      "zoom_level": 1.0,
+      "scroll_position": 0.0,
+      "file_sort_order": "date_desc",
+      "enable_search_bar": true,
+      "default_mute_audio": false
+    },
+    
+    "logging": {
+      "enable_file_logging": true,
+      "log_file_path": "./logs/lipsync_tool.log"
+    },
+    
+    "processing_options": {
+      "mode": "standard",
+      "enable_cache": true,
+      "cache_directory": "./cache",
+      "enable_gpu": false,
+      "rms_threshold": 0.02,
+      "phoneme_timing_mode": "naive"
+    },
+    
+    "character_settings": {
+      "default": {
+        "a": ["a"],
+        "i": ["i"],
+        "u": ["u"],
+        "e": ["e"],
+        "o": ["o"]
+      },
+      "reimu": {
+        "a": ["a", "a2", "a3"],
+        "i": ["i", "i2"],
+        "u": ["u", "u2"],
+        "e": ["e", "e2"],
+        "o": ["o", "o2"]
+      },
+      "marisa": {
+        "a": ["a", "a_alt"],
+        "i": ["i", "i_alt"],
+        "u": ["u", "u_alt"],
+        "e": ["e", "e_alt"],
+        "o": ["o", "o_alt"]
+      }
+    },
+    
+    "export_options": {
+      "mmd": {
+        "default_fps": 30,
+        "overlap_rate": 0.1,
+        "output_extension": "vmd"
+      },
+      "gmod": {
+        "default_fps": 30,
+        "overlap_rate": 0.1,
+        "output_extension": "json"
+      }
+    },
+  
+    "ui_settings": {
+      "theme": "dark",
+      "font_size": 12,
+      "enable_ui_animation": true
+    },
+  
+    "output": {
+      "default_format": "json",
+      "output_directory": "./output"
+    }
+  }
+  

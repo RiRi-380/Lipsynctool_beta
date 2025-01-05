@@ -1,0 +1,8 @@
+{
+    "name": "default_project",
+    "description": "This is a default project template.",
+    "settings": {
+        "sample_rate": 16000,
+        "window_size": 1024
+    }
+}

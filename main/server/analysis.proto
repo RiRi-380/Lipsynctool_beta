@@ -1,0 +1,43 @@
+syntax = "proto3";
+
+// パッケージ名 (解析系サービス)
+package analysis;
+
+// AnalysisService: 音声解析を行うためのサービス定義
+service AnalysisService {
+  // AnalyzeAudio: 音声とオプションを受け取り、RMSや音素情報を返すRPC
+  rpc AnalyzeAudio (AnalyzeRequest) returns (AnalyzeResponse);
+}
+
+// 音声解析のリクエストメッセージ
+message AnalyzeRequest {
+  // 音声データ（生PCM等）をbytesとして受け取る
+  bytes audio_data = 1;
+
+  // テキスト (音素生成用に利用)
+  string text = 2;
+
+  // キャラクター名 (キャラクターに依存した解析などの例)
+  string character = 3;
+
+  // GPU使用フラグ
+  bool use_gpu = 4;
+}
+
+// 発音記号や表記を格納するメッセージ
+message Phoneme {
+  // 実際のサーフェス(語彙や文字列)
+  string surface = 1;
+
+  // 対応する音素
+  string phoneme = 2;
+}
+
+// AnalyzeAudio の応答メッセージ
+message AnalyzeResponse {
+  // 音声全体のRMS
+  float rms_value = 1;
+
+  // 音素リスト (サーフェス文字列と音素のペア)
+  repeated Phoneme phonemes = 2;
+}

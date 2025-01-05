@@ -43,7 +43,7 @@ MikuMikuDance (VMD ファイル) や Garry's Mod 用 JSON などへのエクス�
 2. GUI を起動
   ```bash
   python main_app.py
-
+```
 音声ファイルやテキストを指定 → 解析ボタンを押す → タイムラインでリップシンクを編集
 3. エクスポート
 GUI またはコマンドラインから JSON / VMD / GMod 用ファイルへの書き出しを実行
@@ -63,11 +63,5 @@ CI 環境や包括的テスト、ユーザ向けチュートリアルの整備
 MeCab / ipadic など追加ライセンスにも留意してください。
 
 リンク
-プロジェクト GitHub リポジトリ (https://github.com/akazdayo/AutoYukkuri)
-参考: AutoYukkuri (by あかず様)
-コードをコピーする
-
-
-
-
-
+プロジェクト GitHub リポジトリ (https://github.com/RiRi-380/Lipsynctool_beta)
+参考: AutoYukkuri (by あかず様) (https://github.com/akazdayo/AutoYukkuri)

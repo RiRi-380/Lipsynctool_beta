@@ -40,7 +40,7 @@ MikuMikuDance (VMD ファイル) や Garry's Mod 用 JSON などへのエクス�
   ```bash
   pip install -r requirements.txt
 
-## 2. GUI を起動
+ 2. GUI を起動
   ```bash
   python main_app.py
 

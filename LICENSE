@@ -1,15 +1,13 @@
 # ライセンス情報
 
-## 1. プロジェクト全体のライセンス
-このプロジェクトはGNU General Public License v3.0（GPL-3.0）の下で配布されています。  
-詳細については、以下をご確認ください:  
-https://www.gnu.org/licenses/gpl-3.0.html
+## 1. 本プロジェクト（～部分）のライセンス
+- このプロジェクトは GNU General Public License v3 (GPL-3.0) のもとで配布されています。
+  詳細については COPYING (もしくは LICENSE) をご確認ください。
 
-## 2. ipadicのライセンス
-このプロジェクトはipadic辞書データを含んでいます。  
-ipadicのライセンス（BSDライセンス）については、`resources/ipadic/COPYING`をご確認ください。
+## 2. ipadic のライセンス (BSD)
+- 本プロジェクトには ipadic 辞書を含みます。
+- ipadic のライセンスについては `resources/ipadic/COPYING` をご確認ください。
 
-BSDライセンスの要点:
-1. 著作権表示を含める必要があります。
-2. 配布物にipadicのライセンス情報を含める必要があります。
-3. 本ソフトウェアに関連する全ての保証を否認します。
+## 3. MeCab のライセンス (BSD)
+- 本プロジェクトには MeCab を含みます。
+- MeCab のライセンスについては `resources/mecab/COPYING` をご確認ください。

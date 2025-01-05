@@ -44,6 +44,7 @@ MikuMikuDance (VMD ファイル) や Garry's Mod 用 JSON などへのエクス�
   ```bash
 　python main_app.py
 
+
 音声ファイルやテキストを指定
 解析ボタンを押す
 タイムラインでリップシンクを編集

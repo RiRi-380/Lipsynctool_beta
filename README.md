@@ -40,22 +40,22 @@ MikuMikuDance (VMD ファイル) や Garry's Mod 用 JSON などへのエクス�
   ```bash
   pip install -r requirements.txt
 
-2. GUI を起動
-  ```bash
-  python main_app.py
-```
+## 2. GUI を起動
+
+```bash
+python main_app.py
+
 音声ファイルやテキストを指定 → 解析ボタンを押す → タイムラインでリップシンクを編集
 3. エクスポート
 GUI またはコマンドラインから JSON / VMD / GMod 用ファイルへの書き出しを実行
 ※VMD 出力は補間カーブやモーフ名の管理に注意が必要
-
 今後の課題
 VMD エクスポートの機能強化
 モーフ名の扱い・補間カーブ設定・Shift-JIS 文字制限などへの対応が不十分
 多言語対応・高精度化
 MeCab や OpenJTalk 導入、英語等の音素解析への対応など
 リアルタイム処理
-Vtuber 配信などに応用する場合の、低遅延な音声認識・口パク生成手法の検討
+Vtuber 配信などに応用する場合、低遅延な音声認識・口パク生成手法の検討
 テスト・ドキュメント充実
 CI 環境や包括的テスト、ユーザ向けチュートリアルの整備
 ライセンス
@@ -63,5 +63,5 @@ CI 環境や包括的テスト、ユーザ向けチュートリアルの整備
 MeCab / ipadic など追加ライセンスにも留意してください。
 
 リンク
-プロジェクト GitHub リポジトリ (https://github.com/RiRi-380/Lipsynctool_beta)
-参考: AutoYukkuri (by あかず様) (https://github.com/akazdayo/AutoYukkuri)
+プロジェクト GitHub リポジトリ
+参考: AutoYukkuri (by あかず様)
